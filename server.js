@@ -1,7 +1,6 @@
 // server.js
-
-const express = require('express');
-const cors = require('cors');
+import express from 'express';
+import cors from 'cors';
 
 const app = express();
 const PORT = 3000;
@@ -9,11 +8,9 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-// Simulação de login
 app.post('/login', (req, res) => {
   const { email, senha } = req.body;
 
-  // Dados mockados
   if (email === 'admin@email.com' && senha === '123') {
     return res
       .status(200)
@@ -26,3 +23,5 @@ app.post('/login', (req, res) => {
 app.listen(PORT, () => {
   console.log(`API rodando em http://localhost:${PORT}`);
 });
+
+

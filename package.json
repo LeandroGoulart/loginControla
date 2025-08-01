@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -31,5 +32,13 @@
   "main": "eslint.config.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroGoulart/loginControla.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeandroGoulart/loginControla/issues"
+  },
+  "homepage": "https://github.com/LeandroGoulart/loginControla#readme"
 }
