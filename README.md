@@ -1,12 +1,47 @@
-# React + Vite
+# 💰 Sistema de Gestão Financeira Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido para aprendizado e portfólio com foco em FullStack Java + React.  
+O objetivo é criar uma aplicação de **controle financeiro pessoal**, com funcionalidades como login, cadastro, e futuramente controle de transações, relatórios e conversão de moedas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+### 🔧 Back-end
+- Java
+- Spring Boot
+- Spring Data JPA
+- PostgreSQL (Railway)
+- API REST
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎨 Front-end
+- React
+- Vite
+- HTML, CSS, JavaScript
+
+### 🛠️ Outras
+- Git
+- Railway (banco na nuvem)
+- Vercel (deploy do front, em breve)
+
+---
+
+## 📦 Como rodar o projeto
+
+### Pré-requisitos
+- Node.js e npm
+- Java 17+
+- PostgreSQL (ou conta no Railway)
+- Git
+
+### ⚙️ Rodando o back-end (Spring Boot)
+1. Acesse a pasta `/backend`
+2. Configure o arquivo `application.properties` com as credenciais do seu banco
+3. Execute o projeto (pelo IntelliJ ou VS Code com extensões Java)
+
+### 💻 Rodando o front-end (React)
+1. Acesse a pasta `/frontend`
+2. Rode os comandos:
+```bash
+npm install
+npm run dev
